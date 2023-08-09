@@ -1,0 +1,74 @@
+* {
+    text-align: center;
+    font-family: 'ROBOTO';
+    
+  }
+  
+  body {
+    text-align: center;
+    background-color: antiquewhite;
+    margin-top: 50px;
+  }
+  
+  .botoes_andares {
+    border-radius: 60%;
+    width: 70px;
+    height: 70px;
+    margin-top: 19px;
+    margin-inline: 14px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid rgb(113, 113, 113);
+    background-image: linear-gradient(to bottom, #e1e1e1, #c0c0c0);
+  }
+  
+  .botoes_andares:hover,
+  .botoes_andares:focus {
+    background-color: rgba(0, 191, 255, 0.3);
+    outline: none;
+  }
+  
+  .elevator-panel {
+    background-color: rgb(57, 57, 57);
+    height: 650px;
+    width: 240px;
+    border-radius: 5px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.75);
+  }
+  
+  .display {
+    background-color: rgb(17, 16, 16);
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .elevator-panel h3 {
+    color: rgb(113, 113, 113);
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  
+  #floor-display {
+    color: red;
+    font-size: 25px;
+  }
+  
+  .botoes_andares.destaque {
+    background-color: rgba(0, 191, 255, 0.3);
+    color: blue;
+  }
+  
+  .botoes_andares.acende-luz {
+    box-shadow: 0 0 10px rgba(36, 219, 255, 0.771);
+    color: rgba(0, 213, 255, 0.539);
+  }
